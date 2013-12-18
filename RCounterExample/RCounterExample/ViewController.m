@@ -27,8 +27,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    counter = [[RCounter alloc] initWithFrame:CGRectMake(50, 50, 160, 70) andNumberOfDigits:5];
-    [counterView addSubview:counter];
+    counter = [[RCounter alloc] initWithFrame:CGRectMake(0, 0, 160, 70) andNumberOfDigits:3];
+    [self.view addSubview:counter];
+    counter.center = self.view.center;
     
     second = 0;
     

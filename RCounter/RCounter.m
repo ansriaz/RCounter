@@ -104,7 +104,7 @@
         tagCounterLeftToRight = tagCounterRightToLeft + 1 - digits;
         
         // Load the background
-        [self setBackgroundColor:[UIColor grayColor]];
+        [self setBackgroundColor:[UIColor blackColor]];
         
         // Load the counters
         UIView *counterCanvas = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 160.0, 70.0)];
@@ -130,7 +130,7 @@
         [self bringSubviewToFront:shadowOverlay];
         
         // Set the current reading
-        currentReading = 000000;
+        currentReading = 1;
     }
     
     return self;
