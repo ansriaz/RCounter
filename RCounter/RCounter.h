@@ -1,14 +1,11 @@
 //
-//  NACounter.h
+//  RCounter.h
 //  Version 0.1
 //
-//  Created by Paul Mason on 05/08/11.
-//  Copyright 2011 Naked Apps. All rights reserved.
-//  @paupino_masano
 //
-//  A note on redistribution:
-//	I'm swell with modifications to this source code, but
-//	if you re-publish after editing, please retain the above copyright notices!
+//  Created by Ans Riaz on 12/12/13.
+//  Copyright (c) 2013 Rizh. All rights reserved.
+//
 //  Have fun :-)
 
 #import <UIKit/UIKit.h>
@@ -17,7 +14,6 @@
     
     int currentReading;
     CGPoint centerStart;
-//    CGPoint rightCenterStart;
 }
 
 @property (nonatomic, readonly) int currentReading;
